@@ -121,5 +121,3 @@ def result():
     # Render the result.html template and pass the prediction results
     return render_template('result.html', prediction_label=pred_label, prediction_percentages=preds_percentage.tolist(), labels=labels_list)
 
-if __name__ == '_main_':
-    app.run(port=5000, debug=False)
