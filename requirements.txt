@@ -1,4 +1,4 @@
-python==3.12.2
+python==3.10.0
 absl-py==2.0.0
 asgiref==3.7.2
 asttokens==2.1.0
